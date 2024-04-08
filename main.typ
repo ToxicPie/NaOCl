@@ -1,6 +1,5 @@
 #set page(
     paper: "a4",
-    // columns: 2,
     margin: (
         top: 32pt, bottom: 28pt,
         left: 32pt, right: 20pt,

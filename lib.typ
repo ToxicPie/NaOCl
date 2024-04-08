@@ -3,7 +3,9 @@
         if regex("^//(/| clang-format)") in line {
             none
         } else if regex("^#include") in line {
-            line.replace("// keep-line", "").trim(at: end)
+            if "// keep-line" in line {
+                line.replace("// keep-line", "").trim(at: end)
+            }
         } else {
             line.trim(at: end)
         }
