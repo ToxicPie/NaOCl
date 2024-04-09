@@ -1,6 +1,6 @@
 #let preprocess_code(code) = {
     code.split("\n").map(line =>
-        if regex("^//(/| clang-format)") in line {
+        if regex("//(/| clang-format)") in line {
             none
         } else if regex("^#include") in line {
             if "// keep-line" in line {

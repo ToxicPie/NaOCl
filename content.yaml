@@ -44,6 +44,8 @@
 - Data Structures:
   - GNU PBDS:
     - ds/pbds.hpp
+  - Fenwick Tree:
+    - ds/fenwick.hpp
   - Segment Tree (ZKW):
     - ds/segtree.hpp
   - Line Container:
@@ -97,6 +99,10 @@
     - graph/tcc.hpp
   - Centroid Decomposition:
     - graph/centroid-decomposition.hpp
+  - Shallowest Tree Decomposition:
+    - graph/shallowest-tree.hpp
+  - Tree Reroot DP:
+    - graph/reroot.hpp
   - Minimum Mean Cycle:
     - graph/min-mean-cycle.hpp
   - Directed MST:
